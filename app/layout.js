@@ -5,8 +5,8 @@ import localFont from "next/font/local"
 const font = localFont({ src: '/MiLanProVF.ttf', display: 'swap' })
 
 export const metadata = {
-  title: '停止维护通知',
-  description: 'chat.academic.bnu120.space 已停止维护。你可以选择同行维护的另一个免费的网站',
+  title: 'Free Chat 微信群',
+  description: '扫描二维码以加入 Free Chat 用户交流群',
 }
 
 export default function RootLayout({ children }) {
