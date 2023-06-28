@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image className={styles.qrcode} src={QRCode} alt='qrcode'></Image>
+        <Image priority className={styles.qrcode} src={QRCode} alt='qrcode'></Image>
         <div className={styles.logo}>扫码加入用户微信群</div>
         <div className={styles.afterLogo}>Free Chat 用户交流群 ⑧</div>
       </div>
