@@ -1,5 +1,5 @@
 import styles from './page.module.css'
-import QRCode from "./free-chat-wechat-group.png"
+import QRCode from "./qrcode.png"
 import Image from 'next/image'
 
 export default function Home() {
@@ -16,8 +16,8 @@ export default function Home() {
 
       <div className={styles.center}>
         <Image priority className={styles.qrcode} src={QRCode} alt='qrcode'></Image>
-        <div className={styles.logo}>扫码加入用户微信群</div>
-        <div className={styles.afterLogo}>Free Chat 用户交流群 ⑧</div>
+        <div className={styles.logo}>扫码加拉群人好友</div>
+        <div className={styles.afterLogo}>⑧群最近超过200人限制了，需要手动拉群</div>
       </div>
 
       <div className={styles.grid}>
