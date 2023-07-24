@@ -7,7 +7,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          <a href='https://cdn.muspimerol.site/sponsorship' style={{ padding: 0 }}>
+          <a href='https://tips.free-chat.asia/sponsorship' style={{ padding: 0 }}>
             为了维持运营，我们需要您的持续捐赠
             <code className={styles.code}>点此了解</code>
           </a>
@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className={styles.grid}>
 
-        <a href="https://ic.muspimerol.site/" className={styles.card} target="_blank" rel="noopener noreferrer">
+        <a href="https://free-chat.asia/" className={styles.card} target="_blank" rel="noopener noreferrer">
           <h2>我们的官网</h2>
           <p>点此跳转到 Free Chat 的索引页。请收藏那个网址以防失联</p>
         </a>
@@ -32,7 +32,7 @@ export default function Home() {
           <p>用 Vercel / Netlify 部署非常方便！可以的话欢迎给我一颗⭐</p>
         </a>
 
-        <a href="mailto:admin@muspimerol.site" className={styles.card} target="_blank" rel="noopener noreferrer">
+        <a href="mailto:kilo.meter@foxmail.com" className={styles.card} target="_blank" rel="noopener noreferrer">
           <h2>Email</h2>
           <p>关于 Free Chat 的合作与赞助，欢迎发邮件与我联系</p>
         </a>
